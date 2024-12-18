@@ -29,6 +29,7 @@ ArrayList<>(listaSabores): El constructor de ArrayList copia los elementos de la
 
 
 - HashSet
+  
 Un HashSet es una clase de Java que implementa la interfaz Set, y se utiliza para almacenar elementos únicos (no permite duplicados). Está basado en una tabla hash y ofrece un rendimiento eficiente para operaciones básicas como agregar, eliminar y buscar elementos.
 
 Características principales del HashSet:
@@ -38,6 +39,7 @@ No permite duplicados: Si intentas agregar un elemento que ya existe, será igno
 No garantiza orden: Los elementos no se almacenan en un orden específico. Si necesitas orden, debes usar otra colección como TreeSet.
 
 - LinkedList
+  
 LinkedList es eficiente para eliminar el primer elemento (poll) y agregar elementos al final (add).
 
 Permite manejar la estructura como una cola, una lista, o incluso una pila (con métodos como push y pop).
