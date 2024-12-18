@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        //Primero debemos crear los objetops con los que trabajaremos
+        //Primero debemos crear los objetos con los que trabajaremos
         Barquilla barquilla1 = new Barquilla();
         BananaSplit bananaSplit1 = new BananaSplit();
 

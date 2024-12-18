@@ -16,6 +16,10 @@ public abstract class Postre {
 
     public abstract void servirPostre();
 
+    public abstract String mostrarDetalleCalorias();
+
+    public abstract String devolverTipo();
+
     public Float getCalorias() {
         return this.calorias;
     }

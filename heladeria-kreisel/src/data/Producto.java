@@ -1,6 +1,6 @@
 package data;
 
-public class Producto<T> {
+public class Producto<T extends Postre> {
     private T producto;
     private Float precio;
     private Integer cantidad;
@@ -19,10 +19,9 @@ public class Producto<T> {
     }
 
     public void mostrarDetalles() {
-        System.out.println("");
+        System.out.println("------------------------------------------------------------------");
         System.out.println("Mostrando detalles de la compra");
-        Integer var10001 = this.cantidad;
-        System.out.println("El cliente ha pedido: " + cantidad + " unidades" );
+        System.out.println("El cliente ha pedido: " + cantidad + " unidades de " + producto.devolverTipo() );
         System.out.println("El valor a pagar es de: " +calcularPrecioTotal(precio, cantidad));
     }
 
