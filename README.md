@@ -21,6 +21,7 @@ Los tipos genéricos en Java son una característica introducida en Java 5 que p
 En el contexto de una heladería, podemos aplicar diferentes colecciones para modelar escenarios prácticos relacionados con la gestión de productos, clientes, pedidos y más. En este repositorio econtraras un ejemplo de cómo usar ArrayList, HashSet, PriorityQueue y HashMap en una heladería.
 
 - Listas
+  
 List.of(...): Este método crea una lista inmutable de los elementos proporcionados.
 Si intentas agregar o eliminar elementos de List.of, obtendrás una excepción.
 
