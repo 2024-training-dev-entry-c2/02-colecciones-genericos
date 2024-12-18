@@ -48,6 +48,7 @@ Representa una cola de clientes de manera intuitiva.
 
 
 - HashMap
+  
 HashMap proporciona una búsqueda, inserción y eliminación de elementos muy eficiente, generalmente en tiempo constante.
 
 Ideal para casos donde necesitas acceder a los datos por clave.
